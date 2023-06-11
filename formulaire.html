@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets\img\logo.png">
+    <title>pet sitter / formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="assets\img\logo.png" alt="logo du site" height="300">
+        <h1>formulaire</h1>
+    </section>
+    <a href="index.html">retourner à la page d'accueil</a>
+    <form action="/action.php" method="post">
+    <div>
+        <label for="name">Nom de votre animal</label>
+        <input id="name" type="text" placeholder="Entrez le nom de votre animal" /><br />
+    </div>
+    <div>
+        <label for="gender">genre</label>
+        <select id="gender">
+            <option selected="selected" value="mâle">mâle</option>
+            <option value="Femelle">Femelle</option>
+        </select><br />
+    </div>
+    <div>
+        <label for="type">s'est un</label>
+        <select id="type">
+            <option selected="selected" value="chat">chat</option>
+            <option value="chien">chien</option>
+        </select><br />
+    </div>
+    <div>
+        <label for="telephone">votre n° de tel</label>
+        <input id="telephone" type="text" placeholder="n° de tel">
+    </div>
+    <textarea cols="30" rows="10" placeholder="Votre message"></textarea><br />
+    <button>enregistrer</button>
+</body>
+</html>
