@@ -1,0 +1,10 @@
+textarea {
+  width: 100vh;
+  height: 162px;
+  resize: none;
+}
+
+div#divinput {
+  display: flex;
+  margin-bottom: 5px;
+}
